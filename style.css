@@ -2,12 +2,20 @@ body {
 	background-color: rgb(236, 238, 241);
 }
 
+html,
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+
+	font-family: "arial", sans-serif;
+}
 
 .header-right {
 	float: right;
 	margin-right: 35px;
 	font-size: 12px;
-	display: inline-block;
 	position: relative;
 	margin-top: 10px;
 }
@@ -24,6 +32,21 @@ body {
 	position: relative;
 }
 
+
+.create-account-btn {
+	padding: 7px 110px 7px 110px;
+	font-size: 14px;
+	border-radius: 5px;
+	border-color: black;
+	background-color: rgb(0, 119, 197);
+	color: white;
+	display: inline-block;
+	top: -10px;
+	position: relative;
+	margin-top: 10px;
+}
+
+
 .text1 {
 	margin-right: 7px;
 }
@@ -31,10 +54,10 @@ body {
 
 .logo {
 	vertical-align: middle;
-    display: inline-block;
     position: relative;
     width: 100%;
     text-align: center;
+    margin-top: 40px;
 }
 
 .logo-pic {
@@ -43,4 +66,143 @@ body {
 	background-image: url("ecosystem_logos_new.png");
 	margin: 0 auto;
     position: absolute;
+    margin-left: -60px;
+}
+
+.clearfix::after, 
+.clearfix::before {
+    content: "";
+    display: table;
+
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+.centered-container {
+	vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+
+form {
+	margin: auto;
+	background-color: white;
+	width: 400px;
+	margin-top: 50px;
+}
+
+.logos-pic {
+	width: 330px;
+	height: 35px;
+	background-image: url("ecosystem_logos_new.png");
+	margin: 0 auto;
+    position: absolute;
+    background-position: 0 100%;
+}
+
+.logos {
+	display: block;
+	padding-bottom: 65px;
+	border-bottom: 1px solid black;
+	border-color: rgb(226, 225, 225);
+	padding: 10px 320px 65px 0;
+}
+
+.little-text {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	width: 320px;
+	min-width: 160px;
+	border-radius: 3px;
+	border: 1px solid #C1C5C8;
+	padding: 5px;
+}
+
+.label1 {
+	margin-bottom: 10px;
+	text-align: left;	
+	margin-right: 230px;	
+}
+
+.label2 {
+	margin-bottom: 10px;
+	text-align: left;	
+	margin-right: 160px;
+}
+
+.label3 {
+	margin-bottom: 10px;
+	text-align: left;	
+	margin-right: 255px;
+}
+
+.form-element {
+	text-align: center;
+	margin: 20px 0;
+	padding: 10px;
+	font-weight: 200;
+	border-style: none;
+}
+
+.smallest-text {
+	font-size: 10px;
+	display: block;
+	margin-top: 7px;
+	text-align: left;
+	margin-left: 25px;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+
+.license-text {
+	display: block;
+	font-size: 12px;
+	padding: 30px 0 30px 0;
+}
+
+.small-logo-pic {
+	width: 330px;
+	height: 35px;
+	background-image: url("intuit_grey.svg");
+	margin: 0 auto;
+    position: absolute;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+}
+
+.small-logo {
+	vertical-align: middle;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    display: block;
+}
+
+.footer-text {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-text-element {
+	display: block;
+	padding-top: 10px;
+	font-size: 12px;
 }
